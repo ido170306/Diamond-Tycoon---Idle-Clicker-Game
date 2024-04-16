@@ -17,7 +17,9 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"oClickAddUpgrade","order":3,"path":"objects/oClickAddUpgrade/oClickAddUpgrade.yy",},
     {"name":"oGUI","order":2,"path":"objects/oGUI/oGUI.yy",},
+    {"name":"sClickIcon","order":1,"path":"sprites/sClickIcon/sClickIcon.yy",},
     {"name":"DrawSetText","order":3,"path":"scripts/DrawSetText/DrawSetText.yy",},
     {"name":"oPhoneManager","order":1,"path":"objects/oPhoneManager/oPhoneManager.yy",},
     {"name":"SetupGUI","order":2,"path":"scripts/SetupGUI/SetupGUI.yy",},

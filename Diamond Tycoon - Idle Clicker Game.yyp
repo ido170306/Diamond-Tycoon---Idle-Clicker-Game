@@ -34,11 +34,17 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"IsInteracting","path":"scripts/IsInteracting/IsInteracting.yy",},},
+    {"id":{"name":"oGUI","path":"objects/oGUI/oGUI.yy",},},
+    {"id":{"name":"MainFont","path":"fonts/MainFont/MainFont.yy",},},
     {"id":{"name":"sDiamond","path":"sprites/sDiamond/sDiamond.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"oDiamond","path":"objects/oDiamond/oDiamond.yy",},},
+    {"id":{"name":"oPhoneManager","path":"objects/oPhoneManager/oPhoneManager.yy",},},
+    {"id":{"name":"IsClicked","path":"scripts/IsClicked/IsClicked.yy",},},
+    {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Main","path":"rooms/Main/Main.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

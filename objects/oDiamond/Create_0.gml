@@ -1,0 +1,1 @@
+global.Diamonds = 0;

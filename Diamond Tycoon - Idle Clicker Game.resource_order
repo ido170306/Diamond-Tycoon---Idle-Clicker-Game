@@ -21,8 +21,10 @@
     {"name":"oGUI","order":2,"path":"objects/oGUI/oGUI.yy",},
     {"name":"sClickIcon","order":1,"path":"sprites/sClickIcon/sClickIcon.yy",},
     {"name":"DrawSetText","order":3,"path":"scripts/DrawSetText/DrawSetText.yy",},
+    {"name":"IsAffordable","order":4,"path":"scripts/IsAffordable/IsAffordable.yy",},
     {"name":"oPhoneManager","order":1,"path":"objects/oPhoneManager/oPhoneManager.yy",},
     {"name":"SetupGUI","order":2,"path":"scripts/SetupGUI/SetupGUI.yy",},
+    {"name":"oGainEffect","order":4,"path":"objects/oGainEffect/oGainEffect.yy",},
     {"name":"IsClicked","order":1,"path":"scripts/IsClicked/IsClicked.yy",},
   ],
 }

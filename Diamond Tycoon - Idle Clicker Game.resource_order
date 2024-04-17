@@ -18,8 +18,10 @@
   ],
   "ResourceOrderSettings": [
     {"name":"oClickAddUpgrade","order":3,"path":"objects/oClickAddUpgrade/oClickAddUpgrade.yy",},
+    {"name":"oGainPerSecond","order":5,"path":"objects/oGainPerSecond/oGainPerSecond.yy",},
     {"name":"oGUI","order":2,"path":"objects/oGUI/oGUI.yy",},
     {"name":"sClickIcon","order":1,"path":"sprites/sClickIcon/sClickIcon.yy",},
+    {"name":"MainFontSmall","order":1,"path":"fonts/MainFontSmall/MainFontSmall.yy",},
     {"name":"DrawSetText","order":3,"path":"scripts/DrawSetText/DrawSetText.yy",},
     {"name":"IsAffordable","order":4,"path":"scripts/IsAffordable/IsAffordable.yy",},
     {"name":"oPhoneManager","order":1,"path":"objects/oPhoneManager/oPhoneManager.yy",},

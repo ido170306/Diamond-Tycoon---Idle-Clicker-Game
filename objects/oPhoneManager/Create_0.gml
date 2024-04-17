@@ -5,6 +5,7 @@ with(instance_create_layer(room_width/2,room_height/2,"Diamond",oDiamond)) //cre
 	image_xscale = 5;
 	image_yscale = 5;
 }
+instance_create_layer(x,y,"Phone",oGainPerSecond);
 instance_create_layer(x,y,"Phone",oGUI);
 with(instance_create_layer(room_width/2,room_height-192,"Upgrades",oClickAddUpgrade))
 {

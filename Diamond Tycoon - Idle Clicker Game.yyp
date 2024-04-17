@@ -36,8 +36,10 @@
   "resources": [
     {"id":{"name":"oClickAddUpgrade","path":"objects/oClickAddUpgrade/oClickAddUpgrade.yy",},},
     {"id":{"name":"IsInteracting","path":"scripts/IsInteracting/IsInteracting.yy",},},
+    {"id":{"name":"oGainPerSecond","path":"objects/oGainPerSecond/oGainPerSecond.yy",},},
     {"id":{"name":"oGUI","path":"objects/oGUI/oGUI.yy",},},
     {"id":{"name":"sClickIcon","path":"sprites/sClickIcon/sClickIcon.yy",},},
+    {"id":{"name":"MainFontSmall","path":"fonts/MainFontSmall/MainFontSmall.yy",},},
     {"id":{"name":"MainFont","path":"fonts/MainFont/MainFont.yy",},},
     {"id":{"name":"DrawSetText","path":"scripts/DrawSetText/DrawSetText.yy",},},
     {"id":{"name":"sDiamond","path":"sprites/sDiamond/sDiamond.yy",},},

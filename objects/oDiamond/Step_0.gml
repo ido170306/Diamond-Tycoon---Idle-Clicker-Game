@@ -1,4 +1,4 @@
-if (IsInteracting())
+if (IsInteracting(80,160))
 {
 	if (IsClicked())
 	{

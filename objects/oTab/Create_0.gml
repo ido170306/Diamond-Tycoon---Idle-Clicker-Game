@@ -1,0 +1,2 @@
+Name = "";
+Selected = false;

@@ -8,3 +8,6 @@ with(instance_create_layer(room_width/2,room_height/2,"Diamond",oDiamond)) //cre
 instance_create_layer(x,y,"Phone",oGainPerSecond);
 instance_create_layer(x,y,"Phone",oGUI);
 SetupTabs();
+
+//Vars
+global.PerClickedPrice = 10;

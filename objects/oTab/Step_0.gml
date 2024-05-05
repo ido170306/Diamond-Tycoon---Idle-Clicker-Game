@@ -17,12 +17,14 @@ if (IsInteracting(0,0))
 			if (oWindowTab.Name == ID.Name)
 			{
 				instance_destroy(oWindowTab);
+				DeleteList();
 				//Selected
 				Selected = false;
 			}
 			else
 			{
 				oWindowTab.Name = ID.Name;
+				DeleteList();
 				//Selected
 				Selected = true;
 				for (var i = 0; i<instance_number(oTab); i++)

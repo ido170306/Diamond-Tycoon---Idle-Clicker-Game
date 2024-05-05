@@ -2,12 +2,12 @@ if (IsInteracting(0,0))
 {
 	if (IsClicked())
 	{
-		if (IsAffordable(global.Diamonds,Price))
+		if (IsAffordable(global.Diamonds,global.PerClickedPrice))
 		{
-			global.Diamonds -= Price;
+			global.Diamonds -= global.PerClickedPrice;
 			//Upgrade
 			global.PerClick++;
-			Price += 15;
+			global.PerClickedPrice += 15;
 		}
 	}
 }

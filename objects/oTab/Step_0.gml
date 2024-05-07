@@ -25,6 +25,7 @@ if (IsInteracting(0,0))
 			{
 				oWindowTab.Name = ID.Name;
 				DeleteList();
+				oWindowTab.Page = 0;
 				//Selected
 				Selected = true;
 				for (var i = 0; i<instance_number(oTab); i++)

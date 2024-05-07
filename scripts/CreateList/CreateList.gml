@@ -1,28 +1,27 @@
 ///@argument0 name
-function CreateList(argument0)
+///@argument1 page
+function CreateList(argument0,argument1)
 {
+	var Grid = ListGrid(argument0);
 	switch (argument0)
 	{
 		case "Boosts":
-			var Array = array_create(3);
-			for (var i = 0; i<array_length(Array); i++)
+			for (var i = 0; i<3; i++)
 			{
-				with (instance_create_layer(room_width/2,y-sprite_height/4+(i*sprite_get_height(sBuyableTab)*1.5),"UpgradesHost",oBuyableTab))
+				with (instance_create_layer(room_width/2,y-sprite_height/3+(i*sprite_get_height(sBuyableTab)*1.5),"UpgradesHost",oBuyableTab))
 				{
-					Name = Array[i];
+					Name = Grid[argument1,i];
 					Type = "Boost";
 				}
 			}
 		break;
 		
 		case "Upgrades":
-			var Array = array_create(3);
-			Array[0] = "ClickUpgrade";
-			for (var i = 0; i<array_length(Array); i++)
+			for (var i = 0; i<3; i++)
 			{
-				with (instance_create_layer(room_width/2,y-sprite_height/4+(i*sprite_get_height(sBuyableTab)*1.5),"UpgradesHost",oBuyableTab))
+				with (instance_create_layer(room_width/2,y-sprite_height/3+(i*sprite_get_height(sBuyableTab)*1.5),"UpgradesHost",oBuyableTab))
 				{
-					Name = Array[i];
+					Name = Grid[argument1,i];
 					Type = "Upgrade";
 				}
 			}

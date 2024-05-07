@@ -1,4 +1,4 @@
 if (!instance_exists(oBuyableTab))
 {
-	CreateList(Name);
+	CreateList(Name,Page);
 }

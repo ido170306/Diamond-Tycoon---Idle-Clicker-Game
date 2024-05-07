@@ -4,3 +4,4 @@ AnimationTimer = 0;
 
 //Upgrades
 global.PerClick = 1;
+global.PerSec = 0;

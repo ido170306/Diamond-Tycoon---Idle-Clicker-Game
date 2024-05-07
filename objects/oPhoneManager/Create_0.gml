@@ -11,3 +11,5 @@ SetupTabs();
 
 //Vars
 global.PerClickedPrice = 10;
+global.MinersPrice = 50;
+global.IndustrialDrills = 250;

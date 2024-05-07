@@ -97,6 +97,7 @@
     {"id":{"name":"AdMobMeta","path":"extensions/AdMobMeta/AdMobMeta.yy",},},
     {"id":{"name":"ListGrid","path":"scripts/ListGrid/ListGrid.yy",},},
     {"id":{"name":"oPhoneManager","path":"objects/oPhoneManager/oPhoneManager.yy",},},
+    {"id":{"name":"oBtnUpgrades","path":"objects/oBtnUpgrades/oBtnUpgrades.yy",},},
     {"id":{"name":"AdMob","path":"extensions/AdMob/AdMob.yy",},},
     {"id":{"name":"AdMobAdColony","path":"extensions/AdMobAdColony/AdMobAdColony.yy",},},
     {"id":{"name":"SetupGUI","path":"scripts/SetupGUI/SetupGUI.yy",},},
@@ -107,6 +108,7 @@
     {"id":{"name":"Obj_AdMob","path":"objects/Obj_AdMob/Obj_AdMob.yy",},},
     {"id":{"name":"AdMobIronSource","path":"extensions/AdMobIronSource/AdMobIronSource.yy",},},
     {"id":{"name":"IsClicked","path":"scripts/IsClicked/IsClicked.yy",},},
+    {"id":{"name":"sBtnUpgrades","path":"sprites/sBtnUpgrades/sBtnUpgrades.yy",},},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
   ],
   "RoomOrderNodes": [

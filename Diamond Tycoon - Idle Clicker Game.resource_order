@@ -68,6 +68,7 @@
     {"name":"AdMobMeta","order":3,"path":"extensions/AdMobMeta/AdMobMeta.yy",},
     {"name":"ListGrid","order":2,"path":"scripts/ListGrid/ListGrid.yy",},
     {"name":"oPhoneManager","order":1,"path":"objects/oPhoneManager/oPhoneManager.yy",},
+    {"name":"oBtnUpgrades","order":12,"path":"objects/oBtnUpgrades/oBtnUpgrades.yy",},
     {"name":"AdMob","order":2,"path":"extensions/AdMob/AdMob.yy",},
     {"name":"SetupGUI","order":2,"path":"scripts/SetupGUI/SetupGUI.yy",},
     {"name":"Obj_AdMob_Rewarded","order":6,"path":"objects/Obj_AdMob_Rewarded/Obj_AdMob_Rewarded.yy",},
@@ -76,5 +77,6 @@
     {"name":"Spr_YoYo_button","order":1,"path":"sprites/Spr_YoYo_button/Spr_YoYo_button.yy",},
     {"name":"AdMobIronSource","order":2,"path":"extensions/AdMobIronSource/AdMobIronSource.yy",},
     {"name":"IsClicked","order":1,"path":"scripts/IsClicked/IsClicked.yy",},
+    {"name":"sBtnUpgrades","order":8,"path":"sprites/sBtnUpgrades/sBtnUpgrades.yy",},
   ],
 }

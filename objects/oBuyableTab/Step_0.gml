@@ -5,11 +5,10 @@ switch (Type)
 	break;
 	
 	case "Upgrade":
-		switch (Name)
+		var name = Name;
+		with (instance_create_layer(x,y,"Upgrades",oBtnUpgrades))
 		{
-			case "ClickUpgrade":
-				instance_create_layer(x,y,"Upgrades",oClickAddUpgrade);
-			break;
+			Name = name;
 		}
 	break;
 }

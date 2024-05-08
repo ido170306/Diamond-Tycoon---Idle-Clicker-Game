@@ -10,6 +10,18 @@ instance_create_layer(x,y,"Phone",oGUI);
 SetupTabs();
 
 //Vars
+
+//ADS
+global.GainPerAd = 0;
+
+//Game
 global.PerClickedPrice = 10;
+global.PerClickMaking = 1;
+
 global.MinersPrice = 50;
+global.MinersMakingPerSec = 1; //Upgrade Gain
+global.GainPerSecMiners = 0; //The Real Gain per sec
+
 global.IndustrialDrills = 250;
+global.IndustrialDrillsMakingPerSec = 10;
+global.GainPerSecIndustrialDrills = 0;

@@ -26,6 +26,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Upgrades","folderPath":"folders/Scripts/Upgrades.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequences","folderPath":"folders/Sequences.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
@@ -36,7 +37,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Font","folderPath":"folders/YoYo Extensions Assets/Font.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/YoYo Extensions Assets/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/YoYo Extensions Assets/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Upgrades","folderPath":"folders/Scripts/Upgrades.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"GMEXT-AdMob Unix Docs.html","CopyToMask":0,"filePath":"datafiles",},

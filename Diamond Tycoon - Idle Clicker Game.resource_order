@@ -15,6 +15,7 @@
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"Upgrades","order":8,"path":"folders/Scripts/Upgrades.yy",},
     {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
@@ -25,7 +26,6 @@
     {"name":"Font","order":1,"path":"folders/YoYo Extensions Assets/Font.yy",},
     {"name":"Objects","order":2,"path":"folders/YoYo Extensions Assets/Objects.yy",},
     {"name":"Sprites","order":3,"path":"folders/YoYo Extensions Assets/Sprites.yy",},
-    {"name":"Upgrades","order":8,"path":"folders/Scripts/Upgrades.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sBuyableTab","order":5,"path":"sprites/sBuyableTab/sBuyableTab.yy",},

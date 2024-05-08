@@ -190,8 +190,8 @@ switch(async_load[?"type"])
 	case "AdMob_RewardedVideo_OnReward":
 		// At this point you can reward the user.
 		
-		show_message_async("You Gained : "+string((global.PerClick+global.PerSec)*100));
-		global.Diamonds += (global.PerClick+global.PerSec)*100;
+		show_message_async("You Gained : "+string(global.GainPerAd));
+		global.Diamonds += global.GainPerAd;
 		AdMob_RewardedVideo_Load();
 		break;
 	

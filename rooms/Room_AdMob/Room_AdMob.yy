@@ -46,7 +46,7 @@
   ],
   "parent": {
     "name": "Rooms",
-    "path": "folders/AdMob Demo/Rooms.yy",
+    "path": "folders/ADMOB/AdMob Demo/Rooms.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

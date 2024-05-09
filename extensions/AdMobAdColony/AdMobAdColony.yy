@@ -42,7 +42,7 @@
   "packageId": "",
   "parent": {
     "name": "Mediations",
-    "path": "folders/AdMob/Extensions/Mediations.yy",
+    "path": "folders/ADMOB/AdMob/Extensions/Mediations.yy",
   },
   "productId": "",
   "sourcedir": "",

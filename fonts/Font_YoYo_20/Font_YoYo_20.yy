@@ -209,7 +209,7 @@
   "maintainGms1Font": false,
   "parent": {
     "name": "Font",
-    "path": "folders/YoYo Extensions Assets/Font.yy",
+    "path": "folders/ADMOB/YoYo Extensions Assets/Font.yy",
   },
   "pointRounding": 0,
   "ranges": [

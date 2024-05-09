@@ -1,4 +1,5 @@
 //Setup
+show_debug_message(display_aa);
 room_set_viewport(room,0,false,0,0,display_get_width(),display_get_height());
 with(instance_create_layer(room_width/2,room_height/2,"Diamond",oDiamond)) //creating oDiamond in the center
 {
@@ -12,6 +13,7 @@ SetupTabs();
 //Vars
 
 //ADS
+global.AD = 0;
 global.GainPerAd = 0;
 
 //Game

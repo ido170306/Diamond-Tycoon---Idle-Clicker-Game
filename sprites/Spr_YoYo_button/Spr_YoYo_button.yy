@@ -51,7 +51,7 @@
   "origin": 4,
   "parent": {
     "name": "Sprites",
-    "path": "folders/YoYo Extensions Assets/Sprites.yy",
+    "path": "folders/ADMOB/YoYo Extensions Assets/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

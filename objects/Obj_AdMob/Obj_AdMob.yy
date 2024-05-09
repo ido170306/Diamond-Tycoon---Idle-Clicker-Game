@@ -10,7 +10,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/AdMob Demo/Objects.yy",
+    "path": "folders/ADMOB/AdMob Demo/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,

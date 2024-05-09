@@ -263,7 +263,7 @@
   "packageId": "",
   "parent": {
     "name": "Extensions",
-    "path": "folders/AdMob/Extensions.yy",
+    "path": "folders/ADMOB/AdMob/Extensions.yy",
   },
   "productId": "",
   "sourcedir": "",

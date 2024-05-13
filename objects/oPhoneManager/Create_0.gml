@@ -23,6 +23,6 @@ global.MinersPrice = 50;
 global.MinersFutureGain = 1; //How much will gain after purchase of an upgrade
 global.MinersCurrentGain = 0; //The Gain per sec
 
-global.IndustrialDrills = 250;
+global.IndustrialDrillsPrice = 250;
 global.IndustrialDrillsFutureGain = 10;
 global.IndustrialDrillsCurrentGain = 0;

@@ -14,7 +14,7 @@ switch (Name)
 	
 	//Upgrades:
 	case "ClickUpgrade":
-		Text = "-Diamonds Per Click-\nIncrease the amount of Diamonds per click.\nYou'll get +"+string(global.PerClickMaking)+" Diamonds per click. (Current : "+string(global.PerClick)+")";
+		Text = "-Clicks-\nIncrease the amount of Diamonds per click.\nYou'll get +"+string(global.PerClickMaking)+" Diamonds per click. (Current : "+string(global.PerClick)+")";
 	break;
 	
 	case "MinersUpgrade":
@@ -26,4 +26,4 @@ switch (Name)
 	break;
 }
 
-DrawSetText(x-sprite_get_width(sBuyableTab)/2+40,y,MainFontSmall,fa_left,fa_middle,c_white,Text);
+DrawSetText(x-sprite_get_width(sBuyableTab)/2+40,y,MainFontSmall,fa_left,fa_middle,#807766,Text);

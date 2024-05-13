@@ -25,12 +25,12 @@ if (IsInteracting(0,0))
 			break;
 			
 			case "IndustrialDrillsUpgrade":
-				if (IsAffordable(global.Diamonds,global.IndustrialDrills))
+				if (IsAffordable(global.Diamonds,global.IndustrialDrillsPrice))
 				{
-					global.Diamonds -= global.IndustrialDrills;
+					global.Diamonds -= global.IndustrialDrillsPrice;
 					//Upgrade
 					global.IndustrialDrillsCurrentGain += global.IndustrialDrillsFutureGain;
-					global.IndustrialDrills += 250;
+					global.IndustrialDrillsPrice += 250;
 				}
 			break;
 		}

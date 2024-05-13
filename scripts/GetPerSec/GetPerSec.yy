@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "IsInteracting",
+  "name": "GetPerSec",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Interactions",
-    "path": "folders/Scripts/Interactions.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }

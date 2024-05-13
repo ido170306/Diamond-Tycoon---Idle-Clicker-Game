@@ -18,11 +18,11 @@ switch (Name)
 	break;
 	
 	case "MinersUpgrade":
-		Text = "-Miners-\nAutomate the production of Diamonds by hiring Miners.\nYou'll get +"+string(global.MinersMakingPerSec)+" Diamonds per Second. (Current : "+string(global.GainPerSecMiners)+")";
+		Text = "-Miners-\nAutomate the production of Diamonds by hiring Miners.\nYou'll get +"+string(global.MinersFutureGain)+" Diamonds per Second. (Current : "+string(global.MinersCurrentGain)+")";
 	break;
 	
 	case "IndustrialDrillsUpgrade":
-		Text = "-Industrial Drills-\nAutomate the production of Diamonds by Buying Drills.\nYou'll get +"+string(global.IndustrialDrillsMakingPerSec)+" Diamonds per Second. (Current : "+string(global.GainPerSecIndustrialDrills)+")";
+		Text = "-Industrial Drills-\nAutomate the production of Diamonds by Buying Drills.\nYou'll get +"+string(global.IndustrialDrillsFutureGain)+" Diamonds per Second. (Current : "+string(global.IndustrialDrillsCurrentGain)+")";
 	break;
 }
 

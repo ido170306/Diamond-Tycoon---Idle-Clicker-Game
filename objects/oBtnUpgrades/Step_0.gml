@@ -19,8 +19,7 @@ if (IsInteracting(0,0))
 				{
 					global.Diamonds -= global.MinersPrice;
 					//Upgrade
-					global.PerSec += global.MinersMakingPerSec;
-					global.GainPerSecMiners += global.MinersMakingPerSec;
+					global.MinersCurrentGain += global.MinersFutureGain;
 					global.MinersPrice += 25;
 				}
 			break;
@@ -30,8 +29,7 @@ if (IsInteracting(0,0))
 				{
 					global.Diamonds -= global.IndustrialDrills;
 					//Upgrade
-					global.PerSec += global.IndustrialDrillsMakingPerSec;
-					global.GainPerSecIndustrialDrills += global.IndustrialDrillsMakingPerSec;
+					global.IndustrialDrillsCurrentGain += global.IndustrialDrillsFutureGain;
 					global.IndustrialDrills += 250;
 				}
 			break;

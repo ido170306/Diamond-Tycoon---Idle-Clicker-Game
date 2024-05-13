@@ -1,4 +1,4 @@
-global.Diamonds = 0;
+global.Diamonds = 1000;
 Duration = 0.25*game_get_speed(gamespeed_fps);
 AnimationTimer = 0;
 

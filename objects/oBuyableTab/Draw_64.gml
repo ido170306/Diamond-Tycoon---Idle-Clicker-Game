@@ -5,7 +5,7 @@ switch (Name)
 {
 	//Boosts:
 	case "2X Money":
-		Text = "-2X Money-\nGet a Boost for X Minutes.\nYou'll Get double your Diamond per second.";
+		Text = "-2X Money-\nGet a Boost for 1 Minute.\nYou'll Get double your Gain.";
 	break;
 	
 	case "+X Money":

@@ -192,7 +192,9 @@ switch(async_load[?"type"])
 		switch(global.AD)
 		{
 			case 0:
-				show_message_async("You Gained 2X Boost!");
+				show_message_async("You Gained 2X Boost For 1 Minute\nWatch another AD to get more Time");
+				global.BoostTimer += 60*game_get_speed(gamespeed_fps);
+				global.BoostMulti = 2;
 			break;
 			
 			case 1:

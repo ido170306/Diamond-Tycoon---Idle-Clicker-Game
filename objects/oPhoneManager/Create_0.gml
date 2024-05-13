@@ -7,6 +7,7 @@ with(instance_create_layer(room_width/2,room_height/2,"Diamond",oDiamond)) //cre
 }
 instance_create_layer(x,y,"Phone",oGainPerSecond);
 instance_create_layer(x,y,"Phone",oGUI);
+instance_create_layer(x,y,"Upgrades",oBoostTimer);
 SetupTabs();
 
 //Vars
@@ -16,6 +17,8 @@ global.AD = 0;
 global.GainPerAd = 0;
 
 //Game
+global.BoostMulti = 1;
+
 global.PerClickedPrice = 10;
 global.PerClickMaking = 1;
 

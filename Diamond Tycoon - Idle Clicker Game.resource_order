@@ -53,6 +53,7 @@
     {"name":"AdMobAppLovin","order":1,"path":"extensions/AdMobAppLovin/AdMobAppLovin.yy",},
     {"name":"Obj_AdMob_Rewarded_Multi_Load","order":8,"path":"objects/Obj_AdMob_Rewarded_Multi_Load/Obj_AdMob_Rewarded_Multi_Load.yy",},
     {"name":"GetPerSec","order":12,"path":"scripts/GetPerSec/GetPerSec.yy",},
+    {"name":"oBoostTimer","order":16,"path":"objects/oBoostTimer/oBoostTimer.yy",},
     {"name":"oGainPerSecond","order":2,"path":"objects/oGainPerSecond/oGainPerSecond.yy",},
     {"name":"oGUI","order":1,"path":"objects/oGUI/oGUI.yy",},
     {"name":"Obj_AdMob_AppOpenAd","order":1,"path":"objects/Obj_AdMob_AppOpenAd/Obj_AdMob_AppOpenAd.yy",},

@@ -1,0 +1,2 @@
+SetupGUI();
+DrawSetText(x,y-sprite_height/2+16,MainFontMedium,fa_center,fa_top,#807766,"Rebirth\nIf you choose to rebirth,\nAll of your upgrades, diamonds, etc...\nWill be deleted and you will gain a boost");

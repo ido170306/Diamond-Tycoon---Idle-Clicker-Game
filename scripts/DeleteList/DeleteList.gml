@@ -4,4 +4,9 @@ function DeleteList()
 	{
 		instance_destroy(oBuyableTab);
 	}
+	
+	if (instance_exists(oRebirthTab))
+	{
+		instance_destroy(oRebirthTab);
+	}
 }

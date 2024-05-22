@@ -26,5 +26,9 @@ function CreateList(argument0,argument1)
 				}
 			}
 		break;
+		
+		case "Rebirth":
+			instance_create_layer(room_width/2,y,"UpgradesHost",oRebirthTab)
+		break;
 	}
 }

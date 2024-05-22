@@ -17,6 +17,17 @@ global.AD = 0;
 global.GainPerAd = 0;
 
 //Game
+
+//Rebirth
+global.RebrithCount = 0;
+global.RebrithMulti = 1;
+global.AmountToRebirth = 10000;
+
+global.Diamonds = 0;
+
+global.PerClick = 1;
+global.PerSec = 0;
+
 global.BoostMulti = 1;
 
 global.PerClickedPrice = 10;

@@ -1,46 +1,48 @@
-if (IsInteracting(0,0))
+if (!instance_exists(oInfoMessages))
 {
-	if (IsClicked())
+	if (IsInteracting(0,0))
 	{
-		var ID = id;
-		if (!instance_exists(oWindowTab))
+		if (IsClicked())
 		{
-			with(instance_create_layer(room_width/2,room_height-sprite_get_height(sWindowTab)/2,"UpgradesWindow",oWindowTab))
+			var ID = id;
+			if (!instance_exists(oWindowTab))
 			{
-				Name = ID.Name;
-			}
-			//Selected
-			Selected = true;
-		}
-		else
-		{
-			if (oWindowTab.Name == ID.Name)
-			{
-				instance_destroy(oWindowTab);
-				DeleteList();
+				with(instance_create_layer(room_width/2,room_height-sprite_get_height(sWindowTab)/2,"UpgradesWindow",oWindowTab))
+				{
+					Name = ID.Name;
+				}
 				//Selected
-				Selected = false;
+				Selected = true;
 			}
 			else
 			{
-				oWindowTab.Name = ID.Name;
-				DeleteList();
-				oWindowTab.Page = 0;
-				//Selected
-				Selected = true;
-				for (var i = 0; i<instance_number(oTab); i++)
+				if (oWindowTab.Name == ID.Name)
 				{
-					var OtherID = instance_find(oTab,i);
-					if (OtherID != id)
+					instance_destroy(oWindowTab);
+					DeleteList();
+					//Selected
+					Selected = false;
+				}
+				else
+				{
+					oWindowTab.Name = ID.Name;
+					DeleteList();
+					oWindowTab.Page = 0;
+					//Selected
+					Selected = true;
+					for (var i = 0; i<instance_number(oTab); i++)
 					{
-						OtherID.Selected = false;
+						var OtherID = instance_find(oTab,i);
+						if (OtherID != id)
+						{
+							OtherID.Selected = false;
+						}
 					}
 				}
 			}
 		}
 	}
 }
-
 if (instance_exists(oWindowTab))
 {
 	if (Selected == true)

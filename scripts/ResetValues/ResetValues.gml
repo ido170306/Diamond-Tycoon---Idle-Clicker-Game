@@ -5,8 +5,6 @@ function ResetValues()
 	global.PerClick = 1;
 	global.PerSec = 0;
 
-	global.BoostMulti = 1;
-
 	global.PerClickedPrice = 10;
 	global.PerClickMaking = 1;
 

@@ -40,3 +40,21 @@ global.MinersCurrentGain = 0; //The Gain per sec
 global.IndustrialDrillsPrice = 250;
 global.IndustrialDrillsFutureGain = 10;
 global.IndustrialDrillsCurrentGain = 0;
+
+global.RefinersPrice = 1000;
+global.RefinersFutureGain = 100;
+global.RefinersCurrentGain = 0;
+
+global.GrindingMachinePrice = 5000;
+global.GrindingMachineFutureGain = 500;
+global.GrindingMachineCurrentGain = 0;
+
+global.FasterConveyorBeltsPrice = 10000;
+global.FasterConveyorBeltsFutureGain = 1000;
+global.FasterConveyorBeltsCurrentGain = 0;
+
+//Save and load
+///Date:
+var Seconds = DateSecondsPast(DateLoad())
+global.Diamonds += global.GainPerSecond * Seconds;
+show_debug_message(Seconds);

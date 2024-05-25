@@ -56,5 +56,6 @@ if (instance_exists(oWindowTab))
 }
 else
 {
+	Selected = false;
 	y = room_height-sprite_get_height(sTab)/2;
 }

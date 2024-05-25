@@ -12,4 +12,16 @@ switch (Name)
 	case "IndustrialDrillsUpgrade":
 		DrawSetText(x,y,MainFontSmall,fa_center,fa_middle,#336633,global.IndustrialDrillsPrice);
 	break;
+	
+	case "RefiningUpgrade":
+		DrawSetText(x,y,MainFontSmall,fa_center,fa_middle,#336633,global.RefinersPrice);
+	break;
+	
+	case "GrindingUpgrade":
+		DrawSetText(x,y,MainFontSmall,fa_center,fa_middle,#336633,global.GrindingMachinePrice);
+	break;
+	
+	case "ConveyorBeltUpgrade":
+		DrawSetText(x,y,MainFontSmall,fa_center,fa_middle,#336633,global.FasterConveyorBeltsPrice);
+	break;
 }

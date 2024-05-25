@@ -24,8 +24,8 @@ function ListGrid(argument0)
 			Grid[0,2] = "IndustrialDrillsUpgrade";
 			//Page 1:
 			Grid[1,0] = "RefiningUpgrade";
-			Grid[1,1] = "InflationUpgrade";
-			Grid[1,2] = "None";
+			Grid[1,1] = "GrindingUpgrade";
+			Grid[1,2] = "ConveyorBeltUpgrade";
 		return (Grid);
 	}
 }

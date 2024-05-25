@@ -33,6 +33,36 @@ if (IsInteracting(0,0))
 					global.IndustrialDrillsPrice += 250;
 				}
 			break;
+			
+			case "RefiningUpgrade":
+				if (IsAffordable(global.Diamonds,global.RefinersPrice))
+				{
+					global.Diamonds -= global.RefinersPrice;
+					//Upgrade
+					global.RefinersCurrentGain += global.RefinersFutureGain;
+					global.RefinersPrice += 1000;
+				}
+			break;
+			
+			case "GrindingUpgrade":
+				if (IsAffordable(global.Diamonds,global.GrindingMachinePrice))
+				{
+					global.Diamonds -= global.GrindingMachinePrice;
+					//Upgrade
+					global.GrindingMachineCurrentGain += global.GrindingMachineFutureGain;
+					global.GrindingMachinePrice += 5000;
+				}
+			break;
+			
+			case "ConveyorBeltUpgrade":
+				if (IsAffordable(global.Diamonds,global.FasterConveyorBeltsPrice))
+				{
+					global.Diamonds -= global.FasterConveyorBeltsPrice;
+					//Upgrade
+					global.FasterConveyorBeltsCurrentGain += global.FasterConveyorBeltsFutureGain;
+					global.FasterConveyorBeltsPrice += 10000;
+				}
+			break;
 		}
 	}
 }
